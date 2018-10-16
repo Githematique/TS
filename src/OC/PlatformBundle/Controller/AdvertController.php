@@ -16,6 +16,7 @@ class AdvertController extends Controller
   // correspondre au paramètre {id} de la route
   public function viewAction($id)
   {
+    
     // $id vaut 5 si l'on a appelé l'URL /platform/advert/5
 
     // Ici, on récupèrera depuis la base de données
