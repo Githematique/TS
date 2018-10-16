@@ -16,6 +16,7 @@ class AdvertController extends Controller
   // correspondre au paramètre {id} de la route
   public function viewAction($id)
   {
+    sqkqpjtozaijtio
     // $id vaut 5 si l'on a appelé l'URL /platform/advert/5
 
     // Ici, on récupèrera depuis la base de données
@@ -28,31 +29,31 @@ class AdvertController extends Controller
   //
   public function contactAction()
   {
-    
+
     return $this->render('OCPlatformBundle:Advert:contact.html.twig');
   }
 
   public function pricingAction()
   {
-   
+
     return $this->render('OCPlatformBundle:Advert:pricing.html.twig');
   }
 
   public function aboutAction()
   {
-   
+
     return $this->render('OCPlatformBundle:Advert:about.html.twig');
   }
 
   public function log_regAction()
   {
-   
+
     return $this->render('OCPlatformBundle:Advert:log_reg.html.twig');
   }
 
   public function unityAction()
   {
-   
+
     return $this->render('OCPlatformBundle:Advert:unity.html.twig');
   }
 
