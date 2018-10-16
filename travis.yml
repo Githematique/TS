@@ -1,0 +1,6 @@
+language: php
+php:
+  - '2.7'
+  - '5.4'
+  - hhvm # on Trusty only
+  - nightly
