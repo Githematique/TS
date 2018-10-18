@@ -1,3 +1,11 @@
 language: php
+dist: precise
 php:
-  - '5.3.9'
+  - '5.3'
+
+before_script:
+  - wget https://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer-v2
+  - chmod a+x php-cs-fixer-v2
+
+script:
+  - ./php-cs-fixer-v2 fix src --rules=@Symfony --diff --dry-run -vvv
